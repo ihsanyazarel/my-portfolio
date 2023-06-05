@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useContext } from "react";
 import { Contexts } from "../contexts/contexts";
 
@@ -6,9 +6,7 @@ const ToggleSwitch = () => {
   const {lightMode, setLightMode} = useContext(Contexts);
 
   const toggleChange = () => {
-    console.log(lightMode)
     setLightMode(!lightMode);
-    console.log(lightMode)
   };
 
   return (

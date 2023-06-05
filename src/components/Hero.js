@@ -1,9 +1,8 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 
 import "./Hero.css";
 import ToggleSwitch from "./Toggle";
 import { Contexts } from "../contexts/contexts";
-import { Button } from "reactstrap";
 import profileImage from "../profileImage.jpg";
 
 function Hero() {
@@ -47,8 +46,6 @@ function Hero() {
                 great user experiences.
               </p>
               <div className="flex ">
-                {/* <Button className="mr-2 ">Github</Button>
-                <Button className="mr-2">Linkedin</Button> */}
                 <button
                   type="button"
                   class={`${lightMode ? "text-[#3730A3] bg-[#FFFFFF]" : "text-[#FFFFFF] bg-[#252128]"} hover:bg-[#CBF281] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-md text-sm px-3 py-3 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2`}

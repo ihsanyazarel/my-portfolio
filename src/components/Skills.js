@@ -13,8 +13,9 @@ function Skills() {
     <div className={`${lightMode ? "" : "bg-[#252128]"} p-px`}>
       <div className={`flex flex-col items-center my-20`}>
       <div className="flex w-[66%]">
-        <h2 className={`w-[40%] text-left ${lightMode ? "text-[#4832D3]" : "text-[#CBF281]"}`}>Skills</h2>
-        <div className="flex flex-wrap w-[60%] justify-between">
+        <h2 className={`basis-2/5 text-left ${lightMode ? "text-[#4832D3]" : "text-[#CBF281]"}`}>Skills</h2>
+        <div className="flex flex-wrap basis-3/5 justify-between">
+          {/* map ile oluşturulacak */}
           <div className="flex items-center w-64  ">
             <img className="h-32 mr-5 my-3 " src={js} />
             <p className={`${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>JAVASCRIPT</p>
