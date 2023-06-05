@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+/* *{
+  border: 0.1px solid red;
+} */
