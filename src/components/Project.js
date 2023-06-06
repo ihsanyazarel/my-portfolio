@@ -28,43 +28,25 @@ function Project({ project }) {
           {project.description}
         </p>
         <div className="text-left">
-          <p
+          {project.methodsofproject.map((item, i) => <p key={i}
             className={`inline-block  py-2 px-4 mr-2 rounded-3xl ${
               lightMode
                 ? "bg-[#4731D3] text-[#FFFFFF]"
                 : "bg-[#8173DA] text-[#FFFFFF]"
             }`}
           >
-            react
-          </p>
-          <p
-            className={`inline-block  py-2 px-4 mr-2 rounded-3xl ${
-              lightMode
-                ? "bg-[#4731D3] text-[#FFFFFF]"
-                : "bg-[#8173DA] text-[#FFFFFF]"
-            }`}
-          >
-            redux
-          </p>
-          <p
-            className={`inline-block  py-2 px-4 mr-2 rounded-3xl ${
-              lightMode
-                ? "bg-[#4731D3] text-[#FFFFFF]"
-                : "bg-[#8173DA] text-[#FFFFFF]"
-            }`}
-          >
-            netlify
-          </p>
+            {item}
+          </p>)}
         </div>
         <div className="underline text-left">
-          <a
+          <a href={project.deployLink}
             className={`mr-20 ${
               lightMode ? "text-[#120B39]" : "text-[#CBF281]"
             }`}
           >
             View Site
           </a>
-          <a
+          <a href={project.githubLink}
             className={`mr-20 ${
               lightMode ? "text-[#120B39]" : "text-[#CBF281]"
             }`}

@@ -12,7 +12,7 @@ export const ProjectsData = () => {
             img: project1,
             title: "Project 1",
             description: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-            methodsofproject: ["react", "redux", "netlify"],
+            methodsofproject: ["react", "redux", "netlify", "tailwind css"],
             githubLink: "https://www.google.com/",
             deployLink: "https://www.google.com/"
         },
