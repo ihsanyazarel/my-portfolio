@@ -48,10 +48,10 @@ function Hero() {
               <div className="flex ">
                 <button
                   type="button"
-                  class={`${lightMode ? "text-[#3730A3] bg-[#FFFFFF]" : "text-[#FFFFFF] bg-[#252128]"} hover:bg-[#CBF281] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-md text-sm px-3 py-3 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2`}
+                  className={`${lightMode ? "text-[#3730A3] bg-[#FFFFFF]" : "text-[#FFFFFF] bg-[#252128]"} hover:bg-[#CBF281] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-md text-sm px-3 py-3 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2`}
                 >
                   <svg
-                    class="w-4 h-4 mr-2 -ml-1"
+                    className="w-4 h-4 mr-2 -ml-1"
                     aria-hidden="true"
                     focusable="false"
                     data-prefix="fab"
@@ -69,7 +69,7 @@ function Hero() {
                 </button>
                 <button
                   type="button"
-                  class={`${lightMode ? "text-[#3730A3] bg-[#FFFFFF]" : "text-[#FFFFFF] bg-[#252128]"} hover:bg-[#CBF281] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-md text-sm px-3 py-3 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2`}
+                  className={`${lightMode ? "text-[#3730A3] bg-[#FFFFFF]" : "text-[#FFFFFF] bg-[#252128]"} hover:bg-[#CBF281] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-md text-sm px-3 py-3 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2`}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

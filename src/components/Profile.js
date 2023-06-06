@@ -19,19 +19,17 @@ function Profile() {
           <div className="flex">
             <div className="basis-1/3">
               <h4 className="text-left text-[#FFFFFF]">Basic Information</h4>
-              <table class="table-auto text-left border-separate xl:border-spacing-y-6">
+              <table className="table-auto text-left border-separate xl:border-spacing-y-6">
                 <tbody className="">
                   {Object.keys(basicInfData).map((item, index) => {
                     const values = Object.values(basicInfData);
-                    return (
-                      <>
-                        <tr className="">
+                    return ( 
+                        <tr key={index}>
                           <td className="w-[30%] text-[#CBF281]">{item}</td>
                           <td className="pl-5 text-[#FFFFFF]">
                             {values[index]}
                           </td>
                         </tr>
-                      </>
                     );
                   })}
                 </tbody>
@@ -41,7 +39,7 @@ function Profile() {
               <img className="rounded-2xl" src={profileImage} />
             </div>
             <div className="basis-1/3 ">
-              <h4 className="text-left text-[#FFFFFF]">Basic Information</h4>
+              <h4 className="text-left text-[#FFFFFF]">About Me</h4>
               <p className="text-left text-[#FFFFFF]">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
                 aut, odit laborum aliquam voluptatum nisi mollitia.

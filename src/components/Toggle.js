@@ -21,7 +21,7 @@ const ToggleSwitch = () => {
       />
       <label
         htmlFor="toggle-checkbox"
-        className={`block overflow-hidden h-6 rounded-full cursor-pointer flex items-center justify-between ${lightMode ? "bg-[#8F88FF]" : "bg-[#3A3A3A]"}`}
+        className={`overflow-hidden h-6 rounded-full cursor-pointer flex items-center justify-between ${lightMode ? "bg-[#8F88FF]" : "bg-[#3A3A3A]"}`}
       >
         <span
           className={`text-2x1 transition-transform duration-200 ease-in p-1 ${
