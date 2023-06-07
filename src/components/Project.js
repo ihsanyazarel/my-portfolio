@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Contexts } from "../contexts/contexts";
 
 function Project({ project }) {
-    const { lightMode } = useContext(Contexts);
+    const { lightMode, textData } = useContext(Contexts);
   return (
     <div
       className={`flex rounded-xl overflow-hidden mt-6 ${
@@ -44,7 +44,7 @@ function Project({ project }) {
               lightMode ? "text-[#120B39]" : "text-[#CBF281]"
             }`}
           >
-            View Site
+            {textData.viewSite}
           </a>
           <a href={project.githubLink}
             className={`mr-20 ${

@@ -6,21 +6,22 @@ import { Contexts } from "../contexts/contexts";
 import profileImage from "../profileImage.jpg";
 
 function Hero() {
-  const { lightMode } = useContext(Contexts);
+  const { lightMode, languageHandler, textData, language } = useContext(Contexts);
+  
   return (
     <div className={`flex flex-col h-auto   ${lightMode ? "light" : "dark"}`}>
       <div className="flex flex-row text-sm font-bold mt-3">
-        <p
-          className={`w-[70%] text-end pr-5 pt-1.5 ${
+        <p onClick={languageHandler}
+          className={`w-[70%] text-end pr-5 pt-1.5 cursor-pointer ${
             lightMode ? "text-[#D9D9D9]" : "text-[#777777]"
           }`}
         >
           <span
             className={`${lightMode ? "text-[#CAF181]" : "text-[#BAB2E7]"}`}
           >
-            TÜRKÇE
+            {textData.language}
           </span>
-          ’YE GEÇ
+          {language === "en" ? "’YE GEÇ" : ""}
         </p>
         <div className="pt-1 pl-3 flex flex-wrap">
           <ToggleSwitch />
@@ -29,7 +30,7 @@ function Hero() {
               lightMode ? "text-[#4731D3]" : "text-[#D9D9D9]"
             }`}
           >
-            {lightMode ? "DARK MODE" : "LIGHT MODE"}
+            {lightMode ? textData.darkMode : textData.lightMode}
           </p>
         </div>
       </div>
@@ -39,11 +40,10 @@ function Hero() {
           <div className="flex items-center">
             <div className="mr-5 w-[64%]">
               <h1 className="text-[#CAF181] text-start">
-                I am a Frontend Developer...
+                {textData.heroHeader}
               </h1>
               <p className="text-[#FFFFFF] text-start">
-                ...who likes to craft solid and scalable frontend products with
-                great user experiences.
+                {textData.heroParagparh}
               </p>
               <div className="flex ">
                 <button

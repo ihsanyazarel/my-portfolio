@@ -1,0 +1,23 @@
+export const textDataEn = {
+  language: "TÜRKÇE",
+  darkMode: "DARK MODE",
+  lightMode: "LIGHT MODE",
+  heroHeader: "I am a Frontend Developer...",
+  heroParagparh: "...who likes to craft solid and scalable frontend products with great user experiences.",
+  skillsHeader: "Skills",
+  profilesHeader: "Profile",
+  basicInfo : "Basic Information",
+  birthDate: "Date of Birth",
+  residence: "City of Residence",
+  education: "Educational Status",
+  preferredRole: "Preferred Role",
+  graduation: "ITU Electronics and Communication Engineering, 2019",
+  aboutMe: "About Me",
+  aboutP1: "Hello, I'm Ihsan. I live in Ankara. I graduated from Istanbul Technical University Electronics and Communication Engineering Department. I worked in the defense industry for 3 years.",
+  aboutP2: "I decided to continue my career in the software field. For this purpose, I received the 6-month Full-Stack Web Developer training from the Workintech educational institution.",
+  projectsHeader: "Projects",
+  sendMessage: "Send me a message!",
+  sendMessageText: "Got a question or proposal, or just want to say hello? Go ahead.",
+  viewSite: "View Site",
+
+};

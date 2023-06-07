@@ -8,12 +8,12 @@ import { Contexts } from "../contexts/contexts";
 import React, { useContext } from "react";
 
 function Skills() {
-  const { lightMode } = useContext(Contexts);
+  const { lightMode, textData } = useContext(Contexts);
   return (
     <div className={`${lightMode ? "" : "bg-[#252128]"} p-px`}>
       <div className={`flex flex-col items-center my-20`}>
       <div className="flex w-[66%]">
-        <h2 className={`basis-2/5 text-left ${lightMode ? "text-[#4832D3]" : "text-[#CBF281]"}`}>Skills</h2>
+        <h2 className={`basis-2/5 text-left ${lightMode ? "text-[#4832D3]" : "text-[#CBF281]"}`}>{textData.skillsHeader}</h2>
         <div className="flex flex-wrap basis-3/5 justify-between">
           {/* map ile oluşturulacak */}
           <div className="flex items-center w-64  ">
