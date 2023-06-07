@@ -85,7 +85,7 @@ function Hero() {
               </div>
             </div>
             <div className="w-[36%] overflow-hidden ">
-              <img className="h-[100%] object-cover rounded-2xl mx-auto" src={profileImage} />
+              <img className=" object-cover rounded-2xl mx-auto" src={profileImage} />
             </div>
           </div>
         </div>
