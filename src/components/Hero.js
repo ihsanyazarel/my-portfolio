@@ -10,9 +10,9 @@ function Hero() {
   
   return (
     <div className={`flex flex-col h-auto   ${lightMode ? "light" : "dark"}`}>
-      <div className="flex flex-row text-sm font-bold mt-3">
+      <div className="flex flex-row text-[15px] max-[640px]:text-xs font-bold mt-3">
         <p onClick={languageHandler}
-          className={`w-[70%] text-end pr-5 pt-1.5 cursor-pointer ${
+          className={`w-[70%] text-end pr-5 max-[640px]:pr-1 pt-1.5 cursor-pointer ${
             lightMode ? "text-[#D9D9D9]" : "text-[#777777]"
           }`}
         >
@@ -23,10 +23,10 @@ function Hero() {
           </span>
           {language === "en" ? "’YE GEÇ" : ""}
         </p>
-        <div className="pt-1 pl-3 flex flex-wrap">
+        <div className="pt-1 pl-3 w-[30%] max-[640px]:pl-1 flex flex-row flex-wrap">
           <ToggleSwitch />
           <p
-            className={`pt-0.5 pl-3 ${
+            className={`pt-0.5 pl-3 max-[640px]:pl-0 ${
               lightMode ? "text-[#4731D3]" : "text-[#D9D9D9]"
             }`}
           >
@@ -37,12 +37,13 @@ function Hero() {
       <div className="flex flex-col items-center mt-5">
         <div className="w-[66%] pb-5">
           <h3 className="text-left text-[#CAF181]">ihsan</h3>
-          <div className="flex items-center">
+          <div className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col-reverse max-[640px]:flex-col-reverse
+          items-center 2xl:bg-blue-500 xl:bg-green-600 lg:bg-orange-600 md:bg-yellow-500 sm:bg-fuchsia-500 max-[640px]:bg-red-600">
             <div className="mr-5 w-[64%]">
-              <h1 className="text-[#CAF181] text-start">
+              <h1 className="text-[#CAF181] text-start 2xl:text-6xl xl:text-[54px] lg:text-5xl md:text-4xl sm:text-3xl max-[640px]:text-2xl">
                 {textData.heroHeader}
               </h1>
-              <p className="text-[#FFFFFF] text-start">
+              <p className="text-[#FFFFFF] text-start 2xl:text-2xl xl:text-[22px] lg:text-xl md:text-lg sm:text-base max-[640px]:text-sm">
                 {textData.heroParagparh}
               </p>
               <div className="flex ">
@@ -83,8 +84,8 @@ function Hero() {
                 </button>
               </div>
             </div>
-            <div className="xl:h-96 lg:h-80 md:h-72 sm:h-60 w-[36%] overflow-hidden  ">
-              <img className="rounded-2xl" src={profileImage} />
+            <div className="w-[36%] overflow-hidden ">
+              <img className="h-[100%] object-cover rounded-2xl mx-auto" src={profileImage} />
             </div>
           </div>
         </div>

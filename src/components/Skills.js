@@ -12,33 +12,33 @@ function Skills() {
   return (
     <div className={`${lightMode ? "" : "bg-[#252128]"} p-px`}>
       <div className={`flex flex-col items-center my-20`}>
-      <div className="flex w-[66%]">
-        <h2 className={`basis-2/5 text-left ${lightMode ? "text-[#4832D3]" : "text-[#CBF281]"}`}>{textData.skillsHeader}</h2>
-        <div className="flex flex-wrap basis-3/5 justify-between">
+      <div className="flex w-[66%] 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col max-[640px]:flex-col">
+        <h2 className={`2xl:basis-2/5 xl:basis-1/3 lg:basis-1/4 md:basis-1/5 text-left ${lightMode ? "text-[#4832D3]" : "text-[#CBF281]"}`}>{textData.skillsHeader}</h2>
+        <div className="flex flex-wrap 2xl:basis-3/5 xl:basis-2/3 lg:basis-3/4 md:basis-4/5 justify-between text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-base max-[640px]:text-xs">
           {/* map ile oluşturulacak */}
-          <div className="flex items-center w-64  ">
-            <img className="h-32 mr-5 my-3 " src={js} />
-            <p className={`${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>JAVASCRIPT</p>
+          <div className="flex items-center 2xl:w-72 xl:w-60 lg:w-60 md:w-56 sm:w-48 max-[640px]:w-32  ">
+            <img className="2xl:h-32 xl:h-32 lg:h-28 md:h-24 sm:h-20 max-[640px]:h-12 mr-3 max-[640px]:mr-1  my-3 " src={js} />
+            <p className={` ${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>JAVASCRIPT</p>
           </div>
-          <div className="flex items-center w-64  ">
-            <img className="h-32 mr-5 my-3 " src={nodeJs} />
-            <p className={`${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>NODE</p>
+          <div className="flex items-center 2xl:w-72 xl:w-60 lg:w-60 md:w-56 sm:w-48 max-[640px]:w-32  ">
+            <img className="2xl:h-32 xl:h-32 lg:h-28 md:h-24 sm:h-20 max-[640px]:h-12 mr-3 max-[640px]:mr-1 my-3 " src={nodeJs} />
+            <p className={` ${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>NODE</p>
           </div>
-          <div className="flex items-center w-64  ">
-            <img className="h-32 mr-5 my-3 " src={react} />
-            <p className={`${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>REACT</p>
+          <div className="flex items-center 2xl:w-72 xl:w-60 lg:w-60 md:w-56 sm:w-48 max-[640px]:w-32  ">
+            <img className="2xl:h-32 xl:h-32 lg:h-28 md:h-24 sm:h-20 max-[640px]:h-12 mr-3 max-[640px]:mr-1 my-3 " src={react} />
+            <p className={` ${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>REACT</p>
           </div>
-          <div className="flex items-center w-64  ">
-            <img className="h-32 mr-5 my-3 " src={vsCode} />
-            <p className={`${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>VS CODE</p>
+          <div className="flex items-center 2xl:w-72 xl:w-60 lg:w-60 md:w-56 sm:w-48 max-[640px]:w-32  ">
+            <img className="2xl:h-32 xl:h-32 lg:h-28 md:h-24 sm:h-20 max-[640px]:h-12 mr-3 max-[640px]:mr-1 my-3 " src={vsCode} />
+            <p className={` ${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>VS CODE</p>
           </div>
-          <div className="flex items-center w-64  ">
-            <img className="h-32 mr-5 my-3 " src={redux} />
-            <p className={`${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>REDUX</p>
+          <div className="flex items-center 2xl:w-72 xl:w-60 lg:w-60 md:w-56 sm:w-48 max-[640px]:w-32  ">
+            <img className="2xl:h-32 xl:h-32 lg:h-28 md:h-24 sm:h-20 max-[640px]:h-12 mr-3 max-[640px]:mr-1 my-3 " src={redux} />
+            <p className={` ${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>REDUX</p>
           </div>
-          <div className="flex items-center w-64  ">
-            <img className="h-32 mr-5 my-3 " src={figma} />
-            <p className={`${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>FIGMA</p>
+          <div className="flex items-center 2xl:w-72 xl:w-60 lg:w-60 md:w-56 sm:w-48 max-[640px]:w-32  ">
+            <img className="2xl:h-32 xl:h-32 lg:h-28 md:h-24 sm:h-20 max-[640px]:h-12 mr-3 max-[640px]:mr-1 my-3 " src={figma} />
+            <p className={` ${lightMode ? "text-[#777777]" : "text-[#FFFFFF]"}`}>FIGMA</p>
           </div>
         </div>
       </div>

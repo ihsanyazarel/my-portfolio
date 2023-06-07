@@ -9,10 +9,10 @@ function Project({ project }) {
         lightMode ? "bg-[#FFFFFF]" : "bg-[#2B2727]"
       }`}
     >
-      <div className="basis-2/5  mr-5">
+      <div className="basis-2/5">
         <img className="h-[100%] object-cover" src={project.img} />
       </div>
-      <div className="mx-auto my-auto py-5 basis-3/5">
+      <div className="ml-5 my-auto py-5 basis-3/5">
         <h3
           className={`text-left  ${
             lightMode ? "text-[#4338CA]" : "text-[#C1BAED]"
