@@ -5,7 +5,7 @@ function Project({ project }) {
     const { lightMode, textData } = useContext(Contexts);
   return (
     <div
-      className={`flex rounded-xl overflow-hidden mt-6 ${
+      className={`flex 2xl:flex-row max-[900px]:flex-col rounded-xl overflow-hidden mt-6 ${
         lightMode ? "bg-[#FFFFFF]" : "bg-[#2B2727]"
       }`}
     >

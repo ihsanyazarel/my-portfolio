@@ -6,12 +6,14 @@ import { Contexts } from "../contexts/contexts";
 import profileImage from "../profileImage.jpg";
 
 function Hero() {
-  const { lightMode, languageHandler, textData, language } = useContext(Contexts);
-  
+  const { lightMode, languageHandler, textData, language } =
+    useContext(Contexts);
+
   return (
     <div className={`flex flex-col h-auto   ${lightMode ? "light" : "dark"}`}>
       <div className="flex flex-row text-[15px] max-[640px]:text-[8px] font-bold mt-3">
-        <p onClick={languageHandler}
+        <p
+          onClick={languageHandler}
           className={`w-[70%] text-end pr-5 max-[640px]:pr-1 pt-1.5 cursor-pointer my-auto ${
             lightMode ? "text-[#D9D9D9]" : "text-[#777777]"
           }`}
@@ -37,19 +39,24 @@ function Hero() {
       <div className="flex flex-col items-center mt-5">
         <div className="w-[66%] pb-5">
           <h3 className="text-left text-[#CAF181]">ihsan</h3>
-          <div className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col-reverse max-[640px]:flex-col-reverse
-          items-center 2xl:bg-blue-500 xl:bg-green-600 lg:bg-orange-600 md:bg-yellow-500 sm:bg-fuchsia-500 max-[640px]:bg-red-600">
-            <div className="mr-5 w-[64%]">
-              <h1 className="text-[#CAF181] text-start 2xl:text-6xl xl:text-[54px] lg:text-5xl md:text-4xl sm:text-3xl max-[640px]:text-2xl">
+          <div
+            className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col-reverse max-[640px]:flex-col-reverse items-end max-md:items-start"
+          >
+            <div className="mr-5 w-[64%] max-md:w-[80%]">
+              <h1 className="text-[#CAF181]  2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl max-[640px]:text-xl">
                 {textData.heroHeader}
               </h1>
-              <p className="text-[#FFFFFF] text-start 2xl:text-2xl xl:text-[22px] lg:text-xl md:text-lg sm:text-base max-[640px]:text-sm">
+              <p className="text-[#FFFFFF]  2xl:text-2xl xl:text-[22px] lg:text-xl md:text-lg sm:text-base max-[640px]:text-sm">
                 {textData.heroParagparh}
               </p>
               <div className="flex ">
                 <button
                   type="button"
-                  className={`${lightMode ? "text-[#3730A3] bg-[#FFFFFF]" : "text-[#FFFFFF] bg-[#252128]"} hover:bg-[#CBF281] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-md text-sm px-3 py-3 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2`}
+                  className={`${
+                    lightMode
+                      ? "text-[#3730A3] bg-[#FFFFFF]"
+                      : "text-[#FFFFFF] bg-[#252128]"
+                  } hover:bg-[#CBF281] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-md text-sm px-3 py-3 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2`}
                 >
                   <svg
                     className="w-4 h-4 mr-2 -ml-1"
@@ -70,7 +77,11 @@ function Hero() {
                 </button>
                 <button
                   type="button"
-                  className={`${lightMode ? "text-[#3730A3] bg-[#FFFFFF]" : "text-[#FFFFFF] bg-[#252128]"} hover:bg-[#CBF281] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-md text-sm px-3 py-3 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2`}
+                  className={`${
+                    lightMode
+                      ? "text-[#3730A3] bg-[#FFFFFF]"
+                      : "text-[#FFFFFF] bg-[#252128]"
+                  } hover:bg-[#CBF281] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-md text-sm px-3 py-3 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2`}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -84,8 +95,11 @@ function Hero() {
                 </button>
               </div>
             </div>
-            <div className="w-[36%] overflow-hidden ">
-              <img className=" object-cover rounded-2xl mx-auto" src={profileImage} />
+            <div className="w-[36%] sm:w-[60%] max-[640px]:w-[60%] overflow-hidden ">
+              <img
+                className="object-cover rounded-2xl mx-auto"
+                src={profileImage}
+              />
             </div>
           </div>
         </div>
