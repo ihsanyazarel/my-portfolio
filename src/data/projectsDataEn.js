@@ -27,7 +27,7 @@ export const projectsDataEn = () => {
             img: minnetGunlugu,
             title: "Gratitude Diary",
             description: "You can take note of the events that make you happy through the new note tab. You can see all your notes in the All Notes tab. When you log in to the site at a later date, you can see all of your old notes.",
-            methodsofproject: ["react", "redux thunk", "localStorage"],
+            methodsofproject: ["react", "redux thunk", "localStorage", "toastify"],
             githubLink: "https://github.com/ihsanyazarel/fsweb-s10-challenge",
             deployLink: "https://grateful-diary-ten.vercel.app/notlar"
         },

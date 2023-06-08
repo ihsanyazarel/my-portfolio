@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useContext } from "react";
 import { Contexts } from "../contexts/contexts";
 
@@ -6,8 +6,10 @@ const ToggleSwitch = () => {
   const {lightMode, setLightMode} = useContext(Contexts);
 
   const toggleChange = () => {
+    localStorage.setItem("darkMode" , lightMode)
     setLightMode(!lightMode);
   };
+  
 
   return (
     <div className="relative inline-block w-14 align-middle select-none transition duration-200 ease-in min-h-max	my-auto">

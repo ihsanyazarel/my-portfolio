@@ -27,7 +27,7 @@ export const projectsDataTr = () => {
             img: minnetGunlugu,
             title: "Minnet Günlüğü",
             description: "Yeni not sekmesi üzerinden seni mutlu eden olayları not alabilirsin. Tüm Notlar sekmesinden bütün notlarını görebilirsin. İleri bir tarihte siteye giriş yaptığında eski notlarının tümünü görebilirsin.",
-            methodsofproject: ["react", "redux thunk", "localStorage"],
+            methodsofproject: ["react", "redux thunk", "localStorage","toastify"],
             githubLink: "https://github.com/ihsanyazarel/fsweb-s10-challenge",
             deployLink: "https://grateful-diary-ten.vercel.app/notlar"
         },

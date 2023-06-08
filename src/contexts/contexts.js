@@ -8,15 +8,16 @@ import { textDataEn } from "../data/textDataEn";
 export const Contexts = createContext();
 
 const ContextsProvider = ({ children }) => {
-  const [lightMode, setLightMode] = useState(true);
+  const [lightMode, setLightMode] = useState(localStorage.getItem("darkMode") ? !(JSON.parse(localStorage.getItem("darkMode"))) : true);
   const [projects, setProjects] = useState(projectsDataEn);
   const [footerSvg, setFooterSvg] = useState(footerSvgData);
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState(localStorage.getItem("language") ? localStorage.getItem("language") : "en");
   const [textData, setTextData] = useState(textDataEn);
   const languageHandler = () => {
     language === "tr" ? setLanguage("en") : setLanguage("tr");
   }
   useEffect(()=>{
+    setTimeout(()=>{localStorage.setItem("language", language)}, 0);
     switch(language) {
       case "tr":
         setTextData(textDataTr);
