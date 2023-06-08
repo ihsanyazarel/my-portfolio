@@ -19,7 +19,7 @@ function Profile() {
 
   return (    
     <div className={`${lightMode ? "bg-[#4731D3]" : "bg-[#171043]"} p-px`}>
-      <div className="flex flex-col items-center mt-5  2xl:bg-blue-500 xl:bg-green-600 lg:bg-orange-600 md:bg-yellow-500 sm:bg-fuchsia-500 max-[640px]:bg-red-600">
+      <div className="flex flex-col items-center mt-5 ">
         <div className="w-[66%] pb-5">
           <h2 className="text-left text-[#CBF281]">
             {textData.profilesHeader}
