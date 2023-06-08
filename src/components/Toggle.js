@@ -10,7 +10,7 @@ const ToggleSwitch = () => {
   };
 
   return (
-    <div className="relative inline-block w-14 align-middle select-none transition duration-200 ease-in min-h-max	">
+    <div className="relative inline-block w-14 align-middle select-none transition duration-200 ease-in min-h-max	my-auto">
       <input
         type="checkbox"
         name="toggle"

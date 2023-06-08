@@ -12,7 +12,7 @@ function Hero() {
     <div className={`flex flex-col h-auto   ${lightMode ? "light" : "dark"}`}>
       <div className="flex flex-row text-[15px] max-[640px]:text-[8px] font-bold mt-3">
         <p onClick={languageHandler}
-          className={`w-[70%] text-end pr-5 max-[640px]:pr-1 pt-1.5 cursor-pointer ${
+          className={`w-[70%] text-end pr-5 max-[640px]:pr-1 pt-1.5 cursor-pointer my-auto ${
             lightMode ? "text-[#D9D9D9]" : "text-[#777777]"
           }`}
         >
@@ -26,7 +26,7 @@ function Hero() {
         <div className="pt-1 pl-3 w-[30%] max-[640px]:pl-1 flex flex-row flex-wrap">
           <ToggleSwitch />
           <p
-            className={`pt-0.5 pl-3 max-[640px]:pl-0 ${
+            className={`pt-0.5 pl-3 max-[640px]:pl-0 my-auto ${
               lightMode ? "text-[#4731D3]" : "text-[#D9D9D9]"
             }`}
           >
