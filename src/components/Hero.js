@@ -50,7 +50,7 @@ function Hero() {
                 {textData.heroParagparh}
               </p>
               <div className="flex ">
-                <a href="https://github.com/ihsanyazarel">
+                <a href="https://github.com/ihsanyazarel" className="no-underline">
                 <button
                   type="button"
                   onclick="https://www.w3docs.com"
@@ -78,7 +78,7 @@ function Hero() {
                   Github
                 </button>
                 </a>
-                <a href="https://www.linkedin.com/in/ihsanyazarel/">
+                <a href="https://www.linkedin.com/in/ihsanyazarel/" className="no-underline">
                 <button
                   type="button"
                   className={`${
