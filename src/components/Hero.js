@@ -87,9 +87,9 @@ function Hero() {
                     lightMode
                       ? "text-[#3730A3] bg-[#FFFFFF]"
                       : "text-[#FFFFFF] bg-[#252128]"
-                  } hover:bg-[#CBF281] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-md text-sm 
+                  } hover:bg-[#CBF281] focus:ring-4 focus:outline-none focus:ring-[#CBF281] font-medium rounded-md text-sm 
                   2xl:px-3 2xl:py-3 xl:px-3 xl:py-3 lg:px-3 lg:py-3 md:px-3 md:py-3 sm:px-3 sm:py-3 max-[640px]:px-2 max-[640px]:py-2 
-                  text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2`}
+                  text-center inline-flex items-center dark:focus:ring-[#CBF281] dark:hover:bg-[#CBF281] mr-2 mb-2`}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
