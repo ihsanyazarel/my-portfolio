@@ -50,8 +50,10 @@ function Hero() {
                 {textData.heroParagparh}
               </p>
               <div className="flex ">
+                <a href="https://github.com/ihsanyazarel">
                 <button
                   type="button"
+                  onclick="https://www.w3docs.com"
                   className={`${
                     lightMode
                       ? "text-[#3730A3] bg-[#FFFFFF]"
@@ -75,6 +77,8 @@ function Hero() {
                   </svg>
                   Github
                 </button>
+                </a>
+                <a href="https://www.linkedin.com/in/ihsanyazarel/">
                 <button
                   type="button"
                   className={`${
@@ -93,6 +97,7 @@ function Hero() {
                   </svg>{" "}
                   LinkedIn
                 </button>
+                </a>
               </div>
             </div>
             <div className="w-[36%] sm:w-[60%] max-[640px]:w-[60%] overflow-hidden ">
