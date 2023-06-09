@@ -16,7 +16,7 @@ function Hero() {
   return (
     <div className={`flex flex-col h-auto   ${lightMode ? "light" : "dark"}`}>
       <div className="flex flex-row text-[15px] max-[640px]:text-[8px] font-bold mt-3">
-        <p
+        <p data-test-id="language-change"
           onClick={languageHandler}
           className={`w-[70%] text-end pr-5 max-[640px]:pr-1 pt-1.5 cursor-pointer my-auto ${
             lightMode ? "text-[#D9D9D9]" : "text-[#777777]"
@@ -56,7 +56,7 @@ function Hero() {
                   href="https://github.com/ihsanyazarel"
                   className="no-underline"
                 >
-                  <button
+                  <button data-test-id="githubButton"
                     type="button"
                     onclick="https://www.w3docs.com"
                     className={`${
