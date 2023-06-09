@@ -14,7 +14,7 @@ function Project({ project }) {
       </div>
       <div className="ml-5 my-auto py-5 2xl:basis-3/5 xl:basis-3/5 lg:basis-1/2 ">
         <h3
-          className={`text-left 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl sm:text-lg max-[640px]:text-base ${
+          className={`font-bold text-left 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl sm:text-lg max-[640px]:text-base ${
             lightMode ? "text-[#4338CA]" : "text-[#C1BAED]"
           }`}
         >

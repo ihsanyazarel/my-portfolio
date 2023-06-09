@@ -14,7 +14,9 @@ function Skills() {
       <div className={`flex flex-col items-center my-20`}>
         <div className="flex w-[66%] 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col max-[640px]:flex-col">
           <h2
-            className={`2xl:basis-2/5 xl:basis-1/3 lg:basis-1/4 md:basis-1/5 text-left ${
+            className={`font-bold 2xl:basis-2/5 xl:basis-1/3 lg:basis-1/4 md:basis-1/5 text-left 
+            2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl max-[640px]:text-xl
+            ${
               lightMode ? "text-[#4832D3]" : "text-[#CBF281]"
             }`}
           >

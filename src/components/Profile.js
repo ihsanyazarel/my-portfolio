@@ -21,17 +21,15 @@ function Profile() {
     <div className={`${lightMode ? "bg-[#4731D3]" : "bg-[#171043]"} p-px`}>
       <div className="flex flex-col items-center mt-5 ">
         <div className="w-[66%] pb-5">
-          <h2 className="text-left text-[#CBF281]">
+          <h2 className="font-bold text-left text-[#CBF281] 2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl max-[640px]:text-xl">
             {textData.profilesHeader}
           </h2>
           <div className="flex 2xl:flex-row  max-lg:flex-col  ">
             <div className="2xl:w-[33%] xl:w-[33%] lg:w-[33%] md:w-[100%] sm:w-[100%] max-[640px]:w-[100%]">
-              <h4 className="text-[#FFFFFF] 
-              
+              <h4 className="text-[#FFFFFF] font-medium
               2xl:text-3xl xl:text-3xl lg:text-2xl md:text-xl sm:text-lg max-[640px]:text-base"
               >{textData.basicInfo}</h4>
               <table className="table-auto text-left border-separate 
-              
               2xl:text-base xl:text-base lg:text-sm md:text-sm sm:text-xs max-[640px]:text-xs">
                 <tbody>
                   {basicInfDataKeys.map((item, index) => {
@@ -53,7 +51,7 @@ function Profile() {
               src={profileImage} />
             </div>
             <div className="2xl:w-[33%] xl:w-[33%] lg:w-[33%] md:w-[100%] sm:w-[100%] max-[640px]:w-[100%] 2xl:pl-8 xl:pl-8 lg:pl-6 md:pl-0 sm:pl-0 max-[640px]:pl-0">
-              <h4 className="text-[#FFFFFF] 
+              <h4 className="text-[#FFFFFF] font-medium
               2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center max-[640px]:text-center
               2xl:text-3xl xl:text-3xl lg:text-2xl md:text-xl sm:text-lg max-[640px]:text-base"
               >{textData.aboutMe}</h4>
