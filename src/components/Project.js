@@ -10,7 +10,7 @@ function Project({ project }) {
       }`}
     >
       <div className="2xl:basis-2/5 xl:basis-2/5 lg:basis-1/2 ">
-        <img className="2xl:h-[100%] xl:h-[100%] lg:h-[100%] md:h-96 sm:h-80 max-[640px]:h-72 w-[100%] object-cover" src={project.img} />
+        <img className="2xl:h-[100%] xl:h-[100%] lg:h-[100%] md:h-96 sm:h-80 max-[640px]:h-72 w-[100%] object-cover" src={project.img} alt={project.title}/>
       </div>
       <div className="ml-5 my-auto py-5 2xl:basis-3/5 xl:basis-3/5 lg:basis-1/2 ">
         <h3

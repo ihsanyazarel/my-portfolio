@@ -10,6 +10,7 @@ export const Contexts = createContext();
 const ContextsProvider = ({ children }) => {
   const [lightMode, setLightMode] = useState(localStorage.getItem("darkMode") ? !(JSON.parse(localStorage.getItem("darkMode"))) : true);
   const [projects, setProjects] = useState(projectsDataEn);
+  // eslint-disable-next-line
   const [footerSvg, setFooterSvg] = useState(footerSvgData);
   const [language, setLanguage] = useState(localStorage.getItem("language") ? localStorage.getItem("language") : "en");
   const [textData, setTextData] = useState(textDataEn);

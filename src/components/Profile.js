@@ -48,7 +48,7 @@ function Profile() {
             <div className="2xl:w-[33%] xl:w-[33%] lg:w-[33%] md:w-[60%] sm:w-[50%] max-[640px]:w-[50%] overflow-hidden mx-auto">
               <img className="object-cover 2xl:rounded-2xl xl:rounded-2xl lg:rounded-2xl md:rounded-full sm:rounded-full max-[640px]:rounded-full 
               2xl:my-0 xl:my-0 lg:my-0 md:my-5 sm:my-4 max-[640px]:my-3" 
-              src={profileImage} />
+              src={profileImage} alt="profileImage"/>
             </div>
             <div className="2xl:w-[33%] xl:w-[33%] lg:w-[33%] md:w-[100%] sm:w-[100%] max-[640px]:w-[100%] 2xl:pl-8 xl:pl-8 lg:pl-6 md:pl-0 sm:pl-0 max-[640px]:pl-0">
               <h4 className="text-[#FFFFFF] font-medium

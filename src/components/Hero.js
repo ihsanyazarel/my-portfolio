@@ -11,6 +11,7 @@ function Hero() {
   useEffect(() => {
     localStorage.setItem("darkMode", !lightMode);
     localStorage.setItem("language", language);
+    // eslint-disable-next-line
   }, []);
 
   return (
@@ -58,7 +59,6 @@ function Hero() {
                 >
                   <button data-test-id="githubButton"
                     type="button"
-                    onclick="https://www.w3docs.com"
                     className={`${
                       lightMode
                         ? "text-[#3730A3] bg-[#FFFFFF]"
@@ -115,7 +115,7 @@ function Hero() {
             <div className="w-[36%] sm:w-[60%] max-[640px]:w-[60%] overflow-hidden ">
               <img
                 className="object-cover rounded-2xl mx-auto"
-                src={profileImage}
+                src={profileImage} alt="profileImage"
               />
             </div>
           </div>

@@ -31,7 +31,7 @@ function Skills() {
               <div className="flex items-center 2xl:w-72 xl:w-60 lg:w-60 md:w-56 sm:w-48 max-[640px]:w-32 max-[390px]:w-28 ">
                 <img
                   className="2xl:h-32 xl:h-32 lg:h-28 md:h-24 sm:h-20 max-[640px]:h-12 max-[390px]:h-12 mr-3 max-[640px]:mr-1  my-3 "
-                  src={js}
+                  src={js} alt="js"
                 />
 
                 <p
@@ -50,7 +50,7 @@ function Skills() {
               <div className="flex items-center 2xl:w-72 xl:w-60 lg:w-60 md:w-56 sm:w-48 max-[640px]:w-32 max-[390px]:w-28 ">
                 <img
                   className="2xl:h-32 xl:h-32 lg:h-28 md:h-24 sm:h-20 max-[640px]:h-12 max-[390px]:h-12 mr-3 max-[640px]:mr-1 my-3 "
-                  src={nodeJs}
+                  src={nodeJs} alt="node"
                 />
                 <p
                   className={`my-auto ${
@@ -68,7 +68,7 @@ function Skills() {
             <div className="flex items-center 2xl:w-72 xl:w-60 lg:w-60 md:w-56 sm:w-48 max-[640px]:w-32 max-[390px]:w-28 ">
               <img
                 className="2xl:h-32 xl:h-32 lg:h-28 md:h-24 sm:h-20 max-[640px]:h-12 max-[390px]:h-12 mr-3 max-[640px]:mr-1 my-3 "
-                src={react}
+                src={react} alt="react"
               />
               <p
                 className={`my-auto ${
@@ -82,7 +82,7 @@ function Skills() {
             <div className="flex items-center 2xl:w-72 xl:w-60 lg:w-60 md:w-56 sm:w-48 max-[640px]:w-32 max-[390px]:w-28 ">
               <img
                 className="2xl:h-32 xl:h-32 lg:h-28 md:h-24 sm:h-20 max-[640px]:h-12 max-[390px]:h-12 mr-3 max-[640px]:mr-1 my-3 "
-                src={vsCode}
+                src={vsCode} alt="vs-code"
               />
               <p
                 className={`my-auto ${
@@ -99,7 +99,7 @@ function Skills() {
             <div className="flex items-center 2xl:w-72 xl:w-60 lg:w-60 md:w-56 sm:w-48 max-[640px]:w-32 max-[390px]:w-28 ">
               <img
                 className="2xl:h-32 xl:h-32 lg:h-28 md:h-24 sm:h-20 max-[640px]:h-12 max-[390px]:h-12 mr-3 max-[640px]:mr-1 my-3 "
-                src={redux}
+                src={redux} alt="redux"
               />
               <p
                 className={`my-auto ${
@@ -113,7 +113,7 @@ function Skills() {
             <div className="flex items-center 2xl:w-72 xl:w-60 lg:w-60 md:w-56 sm:w-48 max-[640px]:w-32 max-[390px]:w-28 ">
               <img
                 className="2xl:h-32 xl:h-32 lg:h-28 md:h-24 sm:h-20 max-[640px]:h-12 max-[390px]:h-12 mr-3 max-[640px]:mr-1 my-3 "
-                src={figma}
+                src={figma} alt="figma"
               />
               <p
                 className={`my-auto ${
