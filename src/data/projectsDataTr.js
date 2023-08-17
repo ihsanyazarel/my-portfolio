@@ -1,9 +1,20 @@
 import filmIzlemeListesi from './images/filmIzlemeListesi.png'
 import alisverisSepeti from './images/alisverisSepeti.png'
 import minnetGunlugu from './images/minnetGunlugu.png'
+import twitterClone from './images/twitterClone.png'
+
 
 export const projectsDataTr = () => {
     return [
+        {
+            id: 4,
+            img: twitterClone,
+            title: "Twitter Klon Projesi",
+            description: "Kullanıcıların tweet atmalarına, tweet'lere yorum yapmalarına ve kendi tweet'lerini ve takip ettikleri kullanıcıların tweet'lerini ana sayfalarında görüntülemelerine olanak sağlayan Rest API projesi.",
+            methodsofproject: ["node.js", "redis", "express", "sqlite3"],
+            githubLink: "https://github.com/ihsanyazarel/twitter-clone-backend",
+            deployLink: "https://ihsan-twitter-backend.onrender.com/"
+        },
         {
             id: 1,
             img: alisverisSepeti,
@@ -31,15 +42,7 @@ export const projectsDataTr = () => {
             githubLink: "https://github.com/ihsanyazarel/fsweb-s10-challenge",
             deployLink: "https://grateful-diary-ten.vercel.app/notlar"
         },
-        // {
-        //     id: 4,
-        //     img: project4,
-        //     title: "Project 4",
-        //     description: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-        //     methodsofproject: ["react", "redux", "netlify"],
-        //     githubLink: "https://www.google.com/",
-        //     deployLink: "https://www.google.com/"
-        // },
+
         // {
         //     id: 5,
         //     img: project5,

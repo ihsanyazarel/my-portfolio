@@ -14,7 +14,7 @@ function Profile() {
     "07.01.1994",
     "Ankara",
     textData.graduation,
-    "Frontend, UI",
+    "Full-Stack Developer",
   ];
 
   return (    

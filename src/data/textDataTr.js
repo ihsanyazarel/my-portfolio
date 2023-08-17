@@ -2,9 +2,9 @@ export const textDataTr = {
   language: "ENGLISH",
   darkMode: "GECE MODU",
   lightMode: "GÜNDÜZ MODU",
-  heroHeader: "Frontend Yazılım Geliştirici...",
+  heroHeader: "Full-Stack Yazılım Geliştirici...",
   heroParagparh:
-    "Harika kullanıcı deneyimleriyle sağlam ve ölçeklenebilir ön uç ürünleri oluşturmayı seviyorum.",
+    "Yazılım geliştirici olmak için konfor alanını terk eden bir mühendis...",
   skillsHeader: "Yetenekler",
   profilesHeader: "Profil",
   basicInfo: "Temel Bilgiler",

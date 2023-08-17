@@ -43,7 +43,7 @@ function Hero() {
       </div>
       <div className="flex flex-col items-center mt-5">
         <div className="w-[66%] pb-5">
-          <h3 className="font-bold text-left text-[#CAF181]">ihsan</h3>
+          <h3 className="font-bold text-left text-[#CAF181]">Ali İhsan YAZAREL</h3>
           <div className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col-reverse max-[640px]:flex-col-reverse items-end max-md:items-start">
             <div className="mr-5 w-[64%] max-md:w-[80%]">
               <h1 className="font-bold text-[#CAF181]  2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl max-[640px]:text-xl">
@@ -108,6 +108,23 @@ function Hero() {
                       <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
                     </svg>{" "}
                     LinkedIn
+                  </button>
+                </a>
+                <a
+                  href="https://www.hackerrank.com/ihsanyazarel"
+                  className="no-underline"
+                >
+                  <button
+                    type="button"
+                    className={`${
+                      lightMode
+                        ? "text-[#3730A3] bg-[#FFFFFF]"
+                        : "text-[#FFFFFF] bg-[#252128]"
+                    } hover:bg-[#CBF281] focus:ring-4 focus:outline-none focus:ring-[#CBF281] font-medium rounded-md text-sm 
+                  2xl:px-3 2xl:py-3 xl:px-3 xl:py-3 lg:px-3 lg:py-3 md:px-3 md:py-3 sm:px-3 sm:py-3 max-[640px]:px-2 max-[640px]:py-2 
+                  text-center inline-flex items-center dark:focus:ring-[#CBF281] dark:hover:bg-[#CBF281] mr-2 mb-2`}
+                  >
+                    HackerRank
                   </button>
                 </a>
               </div>
