@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Portfolio Site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, profesyonel çalışmaları, projeleri ve yetenekleri sergilemek amacıyla oluşturulmuş bir portfolyo web sitesidir. Kullanıcılar, site sahibinin önceki projelerini, deneyimlerini, eğitim geçmişini ve diğer profesyonel bilgileri inceleyebilirler. Ayrıca, iletişim formu aracılığıyla site sahibiyle doğrudan iletişime geçebilirler. Bu portfolyo, ziyaretçilere site sahibinin uzmanlık alanlarını, yeteneklerini ve profesyonel geçmişini anlamaları için kapsamlı bir bakış sunar.
 
-## Available Scripts
+Canlı projeyi [buradan](https://ihsanyazarel-portfolio.vercel.app/) görüntüleyebilirsiniz.
 
-In the project directory, you can run:
+## Kullanılan Teknolojiler
 
-### `npm start`
+Bu portfolyo web sitesi için aşağıdaki teknolojiler ve paketler kullanılmıştır:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: Modern bir JavaScript kütüphanesi olan React, bu projenin temelini oluşturur.
+    - useContext: React'in Context API'sini kullanarak bileşenler arası durum yönetimi ve veri paylaşımı için.
+- React DOM: React bileşenlerini DOM'a render etmek için.
+- Reactstrap: Bootstrap ile React bileşenleri oluşturmak için.
+- @testing-library/react: React bileşenlerini test etmek için.
+- Cypress: E2E testleri için.
+- TailwindCSS: Daha esnek ve özelleştirilebilir bir tasarım için kullanılan bir CSS çerçevesi.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Kurulum
 
-### `npm test`
+1. Projeyi yerel makinenize klonlayın. Bunun için aşağıdaki komutu kullanabilirsiniz:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+git clone https://github.com/ihsanyazarel/my-portfolio
 
-### `npm run build`
+2. Projeyi klonladığınız dizine gidin.
+3. `npm install` komutunu çalıştırın.
+4. `npm start` komutunu çalıştırın.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Testler
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Bu projede, kodun doğruluğunu ve güvenilirliğini sağlamak için unit testler bulunmaktadır. Testleri çalıştırmak için `npm run test` komutunu kullanabilirsiniz.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
